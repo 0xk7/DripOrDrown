@@ -9,8 +9,6 @@ using namespace std;
 
 #define BUFSIZE 65536
 
-
-
 int _tmain(int argc, TCHAR* argv[])
 {
     HANDLE hPipe;
