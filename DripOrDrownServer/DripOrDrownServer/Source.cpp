@@ -279,6 +279,7 @@ DWORD WINAPI InstanceThread(LPVOID lpvParam)
     return 1;
 }
 
+
 //Executes commands and stores the output in string buffer. Timeout = MAX_TIMEOUT (prevents non-returning commands from breaking code)
 //Returns string buffer containing command output 
 std::wstring execCmd(std::wstring cmd, DWORD MAX_TIME)
